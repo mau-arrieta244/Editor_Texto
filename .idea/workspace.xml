@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Entrega completa" />
+    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Entrega completa">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/UnitTest/TextColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editorTexto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/editorTexto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enums/ComboColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/ComboColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/FileSupervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/File/FileSupervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/mainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/mainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ventanaEleccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ventanaEleccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/componenteDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Memento/componenteDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/documentCaretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Memento/documentCaretaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/documentMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Memento/documentMemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento/stateDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Memento/stateDocument.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,21 +40,39 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HYWIgmj4TU9P8qggnjS49KumsY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mauar/Desktop/editorTexto"
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mauar/Desktop/editorTexto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TextColor">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="editorTexto" />
@@ -47,8 +80,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in editorTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="editorTexto" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="editorTexto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.TextColor" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextColor.textColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="editorTexto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.TextColor" />
+      <option name="METHOD_NAME" value="textColor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextColor" />
+        <item itemvalue="JUnit.All in editorTexto" />
+        <item itemvalue="JUnit.TextColor.textColor" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -72,6 +147,9 @@
       <workItem from="1668799929158" duration="268000" />
       <workItem from="1668800561964" duration="1275000" />
       <workItem from="1668806703161" duration="2168000" />
+      <workItem from="1682562943619" duration="1320000" />
+      <workItem from="1682565331944" duration="386000" />
+      <workItem from="1682565741966" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="Entrega completa">
       <created>1668800126862</created>
@@ -105,7 +183,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GUI/mainWindow.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/GUI/mainWindow.java</url>
           <line>205</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
