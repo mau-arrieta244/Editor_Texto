@@ -269,7 +269,10 @@ public class mainWindow extends javax.swing.JFrame {
         estadoActual.add(componente);
         return estadoActual;
     }
-    private void cambiarColor() throws BadLocationException {
+
+    //=======================================================================================================
+    //======================================  Cambio de color  =============================================
+    public void cambiarColor() throws BadLocationException {
         StyledDocument doc = JTextAreaCuerpo_docu.getStyledDocument();
         int start = JTextAreaCuerpo_docu.getSelectionStart();
         int end = JTextAreaCuerpo_docu.getSelectionEnd();
@@ -284,9 +287,26 @@ public class mainWindow extends javax.swing.JFrame {
         Style style = JTextAreaCuerpo_docu.addStyle("MyHilite", null);
         ComboColor cColor = (ComboColor) comboBoxColor.getSelectedItem();
         Color color = (cColor.getColor());
-        StyleConstants.setForeground(style, color);
+        style.addAttribute(StyleConstants.Foreground, color);
+
+//        StyleConstants.setForeground(style, color);
         doc.setCharacterAttributes(start, end - start, style, false);
     }
+
+    public void setComboBoxColor(ComboColor color){
+        comboBoxColor.setSelectedItem(color);
+    };
+    public ComboColor getComboBoxColor(){
+        return (ComboColor) comboBoxColor.getSelectedItem();
+    };
+    public void setJTextAreaCuerpo_docu(JTextPane panel){
+        JTextAreaCuerpo_docu = panel;
+    };
+
+    public JTextPane getJTextAreaCuerpo_docu(){
+        return JTextAreaCuerpo_docu;
+    };
+    //=======================================================================================================
 
     private void updateUI(){
         JTextAreaCuerpo_docu.selectAll();
