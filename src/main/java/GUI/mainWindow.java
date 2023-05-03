@@ -306,6 +306,10 @@ public class mainWindow extends javax.swing.JFrame {
     public JTextPane getJTextAreaCuerpo_docu(){
         return JTextAreaCuerpo_docu;
     };
+
+    //pruebas mau
+    public JTextField getTextFieldNombre_docu(){return textFieldNombre_docu;}
+
     //=======================================================================================================
 
     private void updateUI(){
