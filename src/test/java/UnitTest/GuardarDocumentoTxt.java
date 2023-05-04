@@ -18,7 +18,7 @@ public class GuardarDocumentoTxt {
 @Test
 @DisplayName("btnAbrir's mainWindow should open a file with a name")
 void GuardarArchivoTxt() {
-        final String fileName = "fire.json";
+        final String fileName = "prueba.txt";
         final String fileWindowName = fileName.split("\\.")[0];
 
         final mainWindow window = new mainWindow(fileName);
