@@ -29,6 +29,8 @@ public class mainWindow extends javax.swing.JFrame {
     private JButton btnRehacer;
     private JTextField textFieldNombre_docu;
     private JComboBox comboBoxExtension_docu;
+
+
     private JComboBox comboBoxColor;
     private JTextPane  JTextAreaCuerpo_docu;
     private JLabel JLabelNombre_docu = new JLabel("Nombre del documento:");
@@ -103,6 +105,7 @@ public class mainWindow extends javax.swing.JFrame {
         estadoActual = new stateDocument();
 
         fileHandler = new FileSupervisor();
+        
 
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,6 +154,7 @@ public class mainWindow extends javax.swing.JFrame {
                 }
                 saveState();
                 try {
+
                     res = fileHandler.guardarComo(estadoActual, textFieldNombre_docu.getText(),String.valueOf(comboBoxExtension_docu.getSelectedItem()),JTextAreaCuerpo_docu.getText().length());
                 } catch (IOException e) {
                     throw new RuntimeException(e);
@@ -293,7 +297,9 @@ public class mainWindow extends javax.swing.JFrame {
 //        StyleConstants.setForeground(style, color);
         doc.setCharacterAttributes(start, end - start, style, false);
     }
-
+    public JComboBox getComboBoxExtension_docu() {
+        return comboBoxExtension_docu;
+    }
     public void setComboBoxColor(ComboColor color){
         comboBoxColor.setSelectedItem(color);
     };

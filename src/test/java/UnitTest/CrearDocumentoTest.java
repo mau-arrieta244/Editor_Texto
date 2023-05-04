@@ -25,6 +25,7 @@ public class CrearDocumentoTest {
     void buttonAction2() {
         mainWindow ventana =  new mainWindow(null);
         assertEquals(ventana.getJTextAreaCuerpo_docu().getText(), "");
+
     }
 
 

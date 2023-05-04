@@ -17,7 +17,7 @@ public class FileSupervisor {
         } catch (IOException e) {
         }
     }
-
+    
     public String guardarComo(stateDocument estadoRecibido,String nombreDocumento, String extensionDocumento, int lengthDocument) throws IOException {
         Path pathDocumentos = Paths.get(stringRelativePathDocumentos.concat("\\"+nombreDocumento+extensionDocumento));
         Path pathSerializable = Paths.get(stringRelativePathSerializables.concat("\\"+nombreDocumento+extensionDocumento+".txt"));
@@ -138,4 +138,5 @@ public class FileSupervisor {
         }
         return result;
     }
+
 }
