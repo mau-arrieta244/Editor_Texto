@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UnitTest/RedoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UnitTest/UndoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Memento/documentCaretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Memento/documentCaretaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest/RedoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest/RedoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Undo">
+  <component name="RunManager" selected="JUnit.Redo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="editorTexto" />
@@ -134,6 +132,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Redo" type="JUnit" factoryName="JUnit">
+      <module name="editorTexto" />
+      <option name="PACKAGE_NAME" value="UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.RedoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Undo" type="JUnit" factoryName="JUnit">
       <module name="editorTexto" />
       <option name="PACKAGE_NAME" value="UnitTest" />
@@ -185,6 +193,7 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Undo" />
+      <item itemvalue="JUnit.Redo" />
       <item itemvalue="JUnit.AbrirDocumento" />
       <item itemvalue="JUnit.CambiarColorDelTexto" />
       <item itemvalue="JUnit.CambiarColorDelTexto.textColor" />
