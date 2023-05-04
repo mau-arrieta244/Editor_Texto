@@ -30,6 +30,7 @@ public class documentCaretaker {
         currentIndex = newIndex;
         return states.get(currentIndex);
     }
+    public documentMemento get(int n){return states.get(n);}
 
     public documentMemento getPreviousMemento() {
         int newIndex = currentIndex-1;
