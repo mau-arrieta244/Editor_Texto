@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Text color change unit tests">
       <change afterPath="$PROJECT_DIR$/sonarqubeScripts.json" afterDir="false" />
+    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Text color change unit tests">
       <change afterPath="$PROJECT_DIR$/src/test/java/UnitTest/AbrirDocumento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Maven support and JUnit installation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/mainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/mainWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest/TextColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest/CambiarColorDelTexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editorTexto.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +69,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="Not authorized. Analyzing this project requires authentication. Please provide a user token in sonar.token or other credentials in sonar.login and sonar.password." />
-      <command value="mvn clean verify sonar:sonar \   -Dsonar.projectKey=Editor-de-texto \   -Dsonar.projectName='Editor de 'texto' \   -Dsonar.host.url=http://localhost:9000 \   -Dsonar.token=sqp_c177e96a5b2d20fe9b5b14f3f190e50a7545a27d" />
-      <command value="mvn clean verify sonar:sonar \   -Dsonar.projectKey=Editor_Texto \   -Dsonar.projectName='Editor_Texto' \   -Dsonar.host.url=http://localhost:9000 \   -Dsonar.token=sqp_4605330a7019c056f4fe90c8260ad9d3977f5184" />
-      <command value="mvn clean verify sonar:sonar  -Dsonar.projectKey=Editor-de-texto  -Dsonar.projectName='Editor de 'texto'  -Dsonar.host.url=http://localhost:9000  -Dsonar.token=sqp_c177e96a5b2d20fe9b5b14f3f190e50a7545a27d" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Maven.SonarCorne">
+  <component name="RunManager" selected="JUnit.TextColor">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="editorTexto" />
@@ -221,9 +218,7 @@
       <workItem from="1682562943619" duration="1320000" />
       <workItem from="1682565331944" duration="386000" />
       <workItem from="1682565741966" duration="1413000" />
-      <workItem from="1682639114525" duration="4262000" />
-      <workItem from="1682723051986" duration="1299000" />
-      <workItem from="1683155901390" duration="6013000" />
+      <workItem from="1682639114525" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="Entrega completa">
       <created>1668800126862</created>
