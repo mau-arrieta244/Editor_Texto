@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Maven support and JUnit installation">
+    <list default="true" id="a637b817-4f60-4424-aa4d-1dd13d3617fc" name="Changes" comment="Text color change unit tests">
+      <change afterPath="$PROJECT_DIR$/sonarqubeScripts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UnitTest/AbrirDocumento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/mainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/mainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest/TextColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest/TextColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest/TextColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest/CambiarColorDelTexto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TextColor">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Not authorized. Analyzing this project requires authentication. Please provide a user token in sonar.token or other credentials in sonar.login and sonar.password." />
+      <command value="mvn clean verify sonar:sonar \   -Dsonar.projectKey=Editor-de-texto \   -Dsonar.projectName='Editor de 'texto' \   -Dsonar.host.url=http://localhost:9000 \   -Dsonar.token=sqp_c177e96a5b2d20fe9b5b14f3f190e50a7545a27d" />
+      <command value="mvn clean verify sonar:sonar \   -Dsonar.projectKey=Editor_Texto \   -Dsonar.projectName='Editor_Texto' \   -Dsonar.host.url=http://localhost:9000 \   -Dsonar.token=sqp_4605330a7019c056f4fe90c8260ad9d3977f5184" />
+      <command value="mvn clean verify sonar:sonar  -Dsonar.projectKey=Editor-de-texto  -Dsonar.projectName='Editor de 'texto'  -Dsonar.host.url=http://localhost:9000  -Dsonar.token=sqp_c177e96a5b2d20fe9b5b14f3f190e50a7545a27d" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.SonarCorne">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="editorTexto" />
@@ -69,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AbrirDocumento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="editorTexto" />
       <extension name="coverage">
         <pattern>
@@ -78,13 +89,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest.TextColor" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.AbrirDocumento" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextColor.textColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CambiarColorDelTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="editorTexto" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +105,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest.TextColor" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.CambiarColorDelTexto" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CambiarColorDelTexto.textColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="editorTexto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.CambiarColorDelTexto" />
       <option name="METHOD_NAME" value="textColor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextColor.textColorSelection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CambiarColorDelTexto.textColorSelection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="editorTexto" />
       <extension name="coverage">
         <pattern>
@@ -109,35 +136,66 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest.TextColor" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.CambiarColorDelTexto" />
       <option name="METHOD_NAME" value="textColorSelection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textcolor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="editorTexto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest.textcolor" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SonarCorne" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="clean" />
+                <option value="verify" />
+                <option value="sonar:sonar" />
+                <option value="\" />
+                <option value="-Dsonar.projectKey=Editor-de-texto" />
+                <option value="\" />
+                <option value="-Dsonar.projectName='Editor" />
+                <option value="de" />
+                <option value="'texto'" />
+                <option value="\" />
+                <option value="-Dsonar.host.url=http://localhost:9000" />
+                <option value="\" />
+                <option value="-Dsonar.token=sqp_c177e96a5b2d20fe9b5b14f3f190e50a7545a27d" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.AbrirDocumento" />
+      <item itemvalue="JUnit.CambiarColorDelTexto" />
+      <item itemvalue="JUnit.CambiarColorDelTexto.textColor" />
+      <item itemvalue="JUnit.CambiarColorDelTexto.textColorSelection" />
+      <item itemvalue="Maven.SonarCorne" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TextColor" />
-        <item itemvalue="JUnit.TextColor.textColorSelection" />
+        <item itemvalue="JUnit.AbrirDocumento" />
+        <item itemvalue="JUnit.CambiarColorDelTexto" />
+        <item itemvalue="JUnit.CambiarColorDelTexto.textColorSelection" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TextColor.textColor" />
-        <item itemvalue="JUnit.textcolor" />
+        <item itemvalue="JUnit.CambiarColorDelTexto.textColor" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +221,9 @@
       <workItem from="1682562943619" duration="1320000" />
       <workItem from="1682565331944" duration="386000" />
       <workItem from="1682565741966" duration="1413000" />
-      <workItem from="1682639114525" duration="3584000" />
+      <workItem from="1682639114525" duration="4262000" />
+      <workItem from="1682723051986" duration="1299000" />
+      <workItem from="1683155901390" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="Entrega completa">
       <created>1668800126862</created>
@@ -179,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682570244879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Text color change unit tests">
+      <created>1682642908696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682642908696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,21 +266,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entrega completa" />
     <MESSAGE value="Maven support and JUnit installation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maven support and JUnit installation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/UnitTest/TextColor.java</url>
-          <line>38</line>
-          <properties class="UnitTest.TextColor" method="textColorSelection">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Text color change unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Text color change unit tests" />
   </component>
 </project>

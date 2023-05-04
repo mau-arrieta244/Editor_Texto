@@ -14,8 +14,16 @@ import javax.swing.text.StyledDocument;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-public class TextColor {
+public class CambiarColorDelTexto {
 
+    //Path test
+
+    /*
+    * @brief Prueba que el color no se cambie si no hay texto seleccionado
+    * @pre textArea con texto
+    * @post textArea con texto y color default
+    * @return void
+    * */
     @Test
     @DisplayName("[cambiarColor] should set a null style to the textArea with no selection")
     void textColorNoSelection() throws BadLocationException {
@@ -33,6 +41,12 @@ public class TextColor {
         assertNull(style);
     }
 
+    /*
+    * @brief Prueba que el color se cambie si hay texto seleccionado
+    * @pre textArea con texto
+    * @post textArea con texto y color seleccionado
+    * @return void
+    * */
     @Test
     @DisplayName("[cambiarColor] should set a style to the textArea with selection")
     void textColorSelection() throws BadLocationException {

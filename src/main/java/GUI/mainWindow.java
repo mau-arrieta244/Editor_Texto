@@ -192,6 +192,7 @@ public class mainWindow extends javax.swing.JFrame {
         });
 
         if (nombreDocumentoAbierto != null){
+
             JLabelNombre_docu_abierto.setText(nombreDocumentoAbierto);
             stateDocument estadoRecibido = (stateDocument) fileHandler.getDocumentObject(nombreDocumentoAbierto);
             estadoActual = estadoRecibido;
